@@ -6,8 +6,11 @@ import { persistReducer, persistStore } from "redux-persist";
 
 import userReducer from "./user/userslice.js";
 
+import themeReducer from "./theme/themeSlice.js";
+
 const rootReducer = combineReducers({
   user: userReducer,
+  theme: themeReducer,
 });
 
 const persistConfig = {

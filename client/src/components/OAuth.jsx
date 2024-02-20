@@ -30,9 +30,7 @@ export default function () {
         dispatch(signInSuccess(data));
         navigate("/");
       }
-    } catch (error) {
-      console.log(error);
-    }
+    } catch (error) {}
   };
 
   return (

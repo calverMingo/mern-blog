@@ -14,7 +14,6 @@ export default function DashBoard() {
     if (TabFromURL) {
       setTab(TabFromURL);
     }
-    console.log(TabFromURL);
   }, [location.search]);
 
   return (

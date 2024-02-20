@@ -15,7 +15,6 @@ export default function DashSideBar() {
     if (TabFromURL) {
       setTab(TabFromURL);
     }
-    console.log(TabFromURL);
   }, [location.search]);
 
   return (
